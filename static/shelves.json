@@ -1,0 +1,22 @@
+{
+    "Personal Projects": {
+        "Whiteboard": "A simple collaborative drawing web app utilizing Socket.IO. This app works on mobile and desktop, which provided me with some challenges implementing gesture recognition.",
+        "Lithobox/Lithophy": "A customizable web interface for controlling an RGB lithophane cube. I plan on selling these, so the infrastructure had to be sound. I also made a Blender add-on that turns an image into a ready-to-print lithophane. This was created out of convenience for Lithobox.",
+        "Flightpath": "Complex spaces can be difficult to naviate, and Flightpath can help. Originally a hackathon project meant to help users navigate an airport, it has grown to encompass more spaces. Ease-of-use and accessibility were of utmost importance when designing this project.",
+        "Blackboard Notify": "During my time as a virtual tutor there were many long stretches of time when no students would show up. To free myself some time I wrote a Firefox extension that flashes my internet-controlled lamp when a student joins or messages the chat.",
+        "Internet Lamp": "An ESP8266-based project that allows me (or anyone with internet access) to control a lamp in my room. This project was built from scratch, using Flask and Socket.IO. The lamp was made smart by cutting open it's wires and passing them through a relay controlled by the ESP8266.",
+        "baqpaq": "A simple site to hold your commonly used code snippets. Share with others and gain knowledge. Kind of like stack overflow but less for learning and more for storing your snippets and finding others that might be useful.",
+        "Modette": "The marker board outside of my room kept getting erased, so I decided to use my technomancy skills and create a motion detector using a Raspberry Pi. This project works by capturing an initial image of the area to be watched, and recording a video if too many pixels are too different.",
+        "PiCast": "This project was created to test out WebRTC for myself. It is a simple screen-sharing web app that lets a user share their screen to a room or join a room and watch someone else's screen. I use this to cast my desktop to my TV using a Raspberry Pi.",
+        "SeRoku": "A customizable remote server for a Roku TV. This uses Roku's ECP API with an ESP8266 web server. The user can customize 6 buttons that launch apps on their TV. This project was definitely a fun one and I learned a lot about embedded web servers.",
+        "Invman": "A minimal inventory management system for use with load cells connected to an ESP8266. This project is still in it's early statges, but I think it has a lot of potential for automation.",
+        "HMS": "HMS stands for Home Media Server. I wrote this out of necessity because I listen to a lot of playlists from YouTube and don't have great internet access at my house. So I would take my laptop somewhere with better connection, download the playlists, and then run HMS on my laptop to server the files to my desktop on my home network.",
+        "pshbtn": "This is a very simple productivity web app inspired by Simone Giertz's Every Day Calendar. There are 100 buttons on the screen. When you tap/click on one it will light up and make a satisfying 'click' noise. This project was very CSS heavy to make the most satisfying UX I could."
+    },
+    "Freelance Experience": {
+        "Escape Room": "An interface for a simulated CCTV in an escape room. This project utilized SSH technology in conjuction with Python to send commands to a remote server for the game.",
+        "Drowsy Driver": "A system that uses a heart rate monitor and an IR camera to detect when a driver is falling asleep while driving. The project used facial recognition to detect when the driver's eyes were closed for a given amount of time and would alert them with a buzzer and flashing light.",
+        "Internet Radio": "An internet radio/mp3 player using a Raspberry Pi. The audio source was controlled using a rotary encoder attached to the Pi, and the play/pause functionality was added using buttons.",
+        "Test Grader": "An automatic test grader that scans a test sheet like a scantron and tells the user their score using openCV. This job was rather challenging due to my then lack of experience using computer vision."
+    }
+}
