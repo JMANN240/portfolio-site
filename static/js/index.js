@@ -28,6 +28,7 @@ let init = async () => {
         const shelf_div = document.createElement("div");
         shelf_div.classList.add("neumorphic", "outset", "flex-column");
         shelf_div.style.fontSize = "2rem";
+        shelf_div.style.width = "95vw";
 
         const title_span = document.createElement("span");
         title_span.classList.add("neumorphic", "inset");
