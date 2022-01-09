@@ -1,0 +1,13 @@
+[Unit]
+Description = uWSGI instance to serve portfolio
+After = network.target
+
+[Service]
+User = root
+Group = www-data
+WorkingDirectory = /home/portfolio
+Environment = "PATH=/home/portfolio/env/bin"
+ExecStart = /home/portfolio/env/bin/uwsgi --ini /home/portfolio/portfolio.ini
+
+[Install]
+WantedBy = multi-user.target
